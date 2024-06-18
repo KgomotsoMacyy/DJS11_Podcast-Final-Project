@@ -10,13 +10,14 @@ input {
 --rosewood: #6A040F;
 --penn: #9D0208;
 --engineering: #D00000;
+--white: #fff;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #03071E;
-
+  background-color: var(--theme);
+  color: var(white);
 }
 
