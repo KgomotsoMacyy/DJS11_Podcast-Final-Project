@@ -5,9 +5,10 @@ function SignUpPage() {
     return (
         <div>
             <Header />
+            <h1>hi hello</h1>
         </div>
 
     );
 }
 
-export default SignUpPage
+export default SignUpPage;

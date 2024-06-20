@@ -1,5 +1,5 @@
 import "./App.css"
-import { Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SignUpPage from "./pages/SignUp"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <ToastContainer />
       <Router>
         <Routes>
-          <Route path="/" element={<SignUPage />} />
+          <Route path="/" element={<SignUpPage />} />
           {/*<Route path="/profile" element={<Profile />} />
           <Route path="/podcasts" element={<Podcasts />} />
           <Route path="/create-podcast" element={<CreatePodcast />} />

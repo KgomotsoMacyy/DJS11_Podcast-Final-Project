@@ -1,11 +1,15 @@
 import React from 'react'
 import "./styles.css";
 
-export default function Header() {
+function Header() {
     return (
-        <div className="nav">
-            Venus
+        <div className="navbar">
+            <div className="links">
+                <Link to="/">Signup</Link>
+            </div>
         </div>
     )
 }
+
+export default Header;
 
