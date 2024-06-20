@@ -13,8 +13,12 @@
 }
 
 .links a{
-    color:var(--white) !important;
+    color:var(--white);
     text-decoration: none !important;
+}
+
+.links a:hover {
+    color: #8f8297;
 }
 
 /*position: absolute;
