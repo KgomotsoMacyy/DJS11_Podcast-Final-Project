@@ -8,7 +8,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<SignInSignUp />} />
-          <Route element={<PrivateRoutes />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/podcasts" element={<Podcasts />} />
           <Route path="/create-podcast" element={<CreatePodcast />} />
@@ -22,4 +21,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
