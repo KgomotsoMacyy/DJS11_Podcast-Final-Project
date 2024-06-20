@@ -13,20 +13,23 @@
 }
 
 .links a{
-    color:var(--white);
+    color: #8f8297;
     text-decoration: none !important;
 }
 
 .links a:hover {
-    color: #8f8297;
+    color: black;
     transition: all 0.3s;    
 }
 
-/*position: absolute;
-width: 977px;
-height: 139px;
-left: 351px;
-top: -95px;
+.gradient {
+    
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    left: 351px;
+    top: -95px;
 
-background: #18B2DE;
-filter: blur(100px);*/
+    background: #18B2DE;
+    filter: blur(100px);
+}
