@@ -13,7 +13,7 @@
 }
 
 .links a{
-    color: #8f8297;
+    color:var(--white);
     text-decoration: none !important;
 }
 
