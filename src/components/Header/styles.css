@@ -1,5 +1,15 @@
 .nav {
-    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
 }
 
 /*position: absolute;
