@@ -29,7 +29,8 @@
     height: 150px;
     left: 351px;
     top: -95px;
-
+    margin: auto;
     background: #18B2DE;
     filter: blur(100px);
+    z-index: -1
 }
