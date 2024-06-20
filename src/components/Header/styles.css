@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+.links a{
+    color:var(--white) !important;
+    text-decoration: none !important;
+}
+
 /*position: absolute;
 width: 977px;
 height: 139px;
