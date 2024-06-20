@@ -15,6 +15,7 @@
 .links a{
     color: grey;
     text-decoration: none !important;
+    font-weight: 500;
 }
 
 .links a:hover {
@@ -30,8 +31,8 @@
     left: 351px;
     top: -95px;
     margin: auto;
-    background: #18B2DE;
+    background: blueviolet;
     filter: blur(100px);
     z-index: -1;
-    top: -100px;
+    top: -150px;
 }
