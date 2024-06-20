@@ -36,3 +36,7 @@
     z-index: -1;
     top: -150px;
 }
+
+.active {
+    color: white;
+}
