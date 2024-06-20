@@ -1,7 +1,13 @@
 import React from 'react'
+import Header from '../components/Header/header';
 
 function SignUpPage() {
-    <div>SignUpPage</div>
+    return (
+        <div>
+            <Header />
+        </div>
+
+    );
 }
 
-export default SignUp
+export default SignUpPage
