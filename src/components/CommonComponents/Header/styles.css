@@ -1,4 +1,4 @@
-.nav {
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,31 +12,28 @@
     align-items: center;
 }
 
-.links a{
-    color: grey;
+.links a {
+    color: #8ea6bb;
     text-decoration: none !important;
     font-weight: 500;
 }
 
 .links a:hover {
-    color: black;
-    transition: all 0.3s;    
+    color: var(--white);
+    transition: all 0.3s;
 }
 
 .gradient {
-    
     position: absolute;
     width: 800px;
     height: 150px;
-    left: 351px;
-    top: -95px;
     margin: auto;
-    background: blueviolet;
-    filter: blur(100px);
+    background-color: var(--blue);
+    filter: blur(90px);
     z-index: -1;
-    top: -150px;
+    top: -120px; /*pushing the gradient up a bit */
 }
 
 .active {
-    color: white;
+    color: var(--white) !important;
 }

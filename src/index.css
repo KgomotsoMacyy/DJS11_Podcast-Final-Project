@@ -1,23 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-input {
-  font-family: "Roboto", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
---theme: #03071E;
---chocolate: #370617;
---rosewood: #6A040F;
---penn: #9D0208;
---engineering: #D00000;
---white: #fff;
+  --theme: #20062e;
+  --blue: #18b2de;
+  --white: #fff;
+  --grey: #d7d7d7;
+  --purple-grey: #8f8297;
 }
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: var(--theme);
-  color: var(--white);
+  font-family: -"Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--theme);
+    color: var(--white);
 }
 
+input {
+  font-size: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-wrapper {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.input-wrapper h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.podcasts-layout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+
+}
+
+.banner-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.podcast-description {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.podcast-title-heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.episode-list {
+  margin-top: 1rem;
+}
+
+.episode-item {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.custom-audio-player {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(14, 2, 21, 0.5);
+}
+
+.display-image-player {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin: 0rem 1rem;
+}
+
+.duration-range {
+  filter: hue-rotate(25deg);
+  width: 100%;
+}
+
+.duration-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  width: 50%;
+}
+
+.volume-range {
+  filter: hue-rotate(25deg);
+  width: 25%;
+}
+
+.audio-btn {
+  cursor: pointer;
+}
