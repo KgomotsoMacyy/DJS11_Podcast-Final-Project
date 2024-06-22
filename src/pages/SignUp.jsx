@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header/header';
+import { InputComponent } from 
 
 function SignUpPage() {
+    const [fullName,setFullName] = useState("");
     return (
         <div>
             <Header />
-            <h1>hi hello</h1>
+            <div>
+                <InputComponent />
+            </div>
         </div>
 
     );
